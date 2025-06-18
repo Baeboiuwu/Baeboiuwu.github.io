@@ -109,21 +109,20 @@ img {
     display: block;
     font-size: 1.1rem;
     font-weight: 800;
-    background-color: var(--dark-color);
-    color: var(--light-color);
+    background-color: var(--light-color);
+    color: var(--black);
     transition: all 0.3s ease;
     display: flex;
     
 }
 .campaign-page .navbar ul li a {
-    background-color: var(--dark-color);
-    color: var(--light-color);
+    background-color: var(--light-color);
+    color: var(--black);
 }
 .campaign-page .navbar ul li:hover a {
     background-color: var(--ahover);
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    color: var(--light-color);
 }
 .navbar ul li:hover a {
     transform: translateY(-3px);
@@ -228,7 +227,8 @@ img {
     background-color: var(--light-color);
     transition: all 0.3s ease;
     width: 150px;
-    background-color: var(--dark-color);
+    background-color: #7057ca;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 .campaignpage a {
     color: var(--light-color);
