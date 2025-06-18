@@ -176,7 +176,7 @@ img {
     color: var(--light-color);
     text-align: center;
     gap: 25px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     margin-top: 1rem !important;
